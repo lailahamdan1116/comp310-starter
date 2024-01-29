@@ -6,7 +6,7 @@ int main(int argc, char *argv[]){
     char filename[] = "example.txt";
     char line[100];
 
-    file = fopen(filename, w);
+    file = fopen("filename", "w");
 
     if(file == NULL){
         printf("Error!");
@@ -17,7 +17,7 @@ int main(int argc, char *argv[]){
     fclose(file);
     return 0;
 
-    if((file == fopen(filename, r))== NULL){
+    if(file == NULL){
         printf("Error!");
         exit(1);
     }

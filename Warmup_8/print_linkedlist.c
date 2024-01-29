@@ -4,10 +4,10 @@
 struct node{
     int data;
     struct node* next;
-}
+};
 struct LinkedList{
-    struct node* next;
-}
+    struct node* head;
+};
 void push(struct LinkedList* list, int new_data){
     struct node* new_node = (struct node*)malloc(sizeof(struct node));
     new_node ->data = new_data;
@@ -19,11 +19,11 @@ void deleteNode(struct LinkedList* list, int key){
     struct node* prev = NULL;
 
     if(temp != NULL && temp->data == key){
-        list ->head = temp->next;
+        list->head = temp->next;
         free(temp);
         return;
     }
-    while(temp != null && temp->data != key){
+    while(temp != NULL && temp->data != key){
         prev = temp;
         temp = temp->next;
     }
@@ -31,7 +31,7 @@ void deleteNode(struct LinkedList* list, int key){
     prev->next = temp->next;
     free(temp);
 }
-    void printList(struct LinkedLists* list){
+    void printList(struct LinkedList* list){
         struct node* tnode = list->head;
         while (tnode != NULL){
             printf("%d ",tnode->data);
@@ -40,7 +40,7 @@ void deleteNode(struct LinkedList* list, int key){
     }
     int main(int argc, char *argv[]){
         struct LinkedList llist;
-        llist->head = NULL;
+        llist.head = NULL;
         push(&llist, 7);
         push(&llist, 1);
         push(&llist, 3);
