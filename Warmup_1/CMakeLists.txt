@@ -1,5 +1,6 @@
 
 add_executable(
-    HelloWorld
-    HelloWorld.c
+    print_HelloWorld
+
+    print_HelloWorld.c
 )

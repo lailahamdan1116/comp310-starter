@@ -1,4 +1,4 @@
 add_executable(
-    reversestrings
-    reversestrings.c
+    print_reversestring
+    print_reversestring.c
 )

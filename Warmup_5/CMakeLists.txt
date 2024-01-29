@@ -1,4 +1,4 @@
 add_executable(
-    matrix
-    matrix.c
+    print_matrix
+    print_matrix.c
 )

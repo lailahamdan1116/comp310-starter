@@ -1,4 +1,4 @@
 add_executable(
-    factorial
-    factorial.c
+    print_factorial
+    print_factorial.c
 )

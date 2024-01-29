@@ -1,4 +1,4 @@
  add_executable(
-    arrays
-    arrays.c
+    print_arrays
+    print_arrays.c
  )

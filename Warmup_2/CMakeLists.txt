@@ -1,4 +1,4 @@
 add_executable(
-    Basic_calculator
-    Basic_calculator.c
+    print_Basic_calculator
+    print_Basic_calculator.c
 )
