@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main(){
-    char strArray[]= "Hello";
+    char strArray[]= "reversing a string??";
 
     int length = strlen(strArray);
     for (int i = 0, j= length-1; i<j; i++, j--){

@@ -10,9 +10,9 @@ int main(){
     printf("Enter second number: \n");
     scanf("%lf", &num2);
 
-    printf("Sum: %lf \n", num1 + num2);
-    printf("Difference: %lf \n", num1 - num2);
-    printf("Quotient: %lf \n", num1/num2);
-    printf("Product: %lf \n", num1 * num2);
+    printf("\n Sum: %lf", num1 + num2);
+    printf("\n Difference: %lf", num1 - num2);
+    printf("\n Quotient:%lf", num1/num2);
+    printf("\n Product: %lf \n", num1 * num2);
 
 }
